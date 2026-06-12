@@ -8,3 +8,7 @@ venv/
 # Ocultar outputs y logs
 logs/
 output/
+
+# Archivos __py__cache y .pyc
+__pycache__/
+*.pyc
