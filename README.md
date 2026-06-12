@@ -94,11 +94,12 @@ python unify.py --todos
 
 ## Archivos generados (en `output/`)
 
-Se encuentran 4 tipos de archivos generados
+Se encuentran 5 tipos de archivos generados
 
 - `raw_YYYY-MM-DD_YYYY-MM-DD.parquet` y `.csv` — interacciones crudas
 - `metricas_YYYY-MM-DD_YYYY-MM-DD.parquet` y `.csv` — métricas por caso
 - `reporte_YYYY-MM-DD_YYYY-MM-DD.parquet` y `.csv` — métricas para reporte Power BI
+- `casos_YYYY-MM-DD_YYYY-MM-DD.parquet` y `.csv` — total de casos incluidos no atendidos para reporte Power BI
 - `auditoria_YYYY-MM-DD_YYYY-MM-DD.parquet` y `.csv` — seguimiento de casos con condiciones planteadas
 - `auditoria_general.xlsx` y `.json` — seguimiento general independientemente de fecha
 
