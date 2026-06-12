@@ -1,0 +1,10 @@
+# Ocultar variables de entorno y configuración sensible
+.env
+
+# Ocultar carpetas de dependencias
+venv/
+.venv/
+
+# Ocultar outputs y logs
+logs/
+output/
